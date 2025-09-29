@@ -2,16 +2,15 @@ import LOGO from "../assests/7.jpg"
 function Home() {
     return (
         <div>
-            <div className=" bg-blue-500 flex px-4 py-3  gap-5 justify-around" >
-                <div className=" font-bold flex gap-2 " >
-                    <img src={LOGO}  alt="logo" className=" w- 8 h-6  rounded-3xl"/>
-                    <h1>HEADER</h1>
+            <div className=" flex  gap-44 justify-around px-3 py-3 " >
+                <div>
+                    <p>Welcome to a Professional Health Care</p> 
                 </div>
-                <div className="  text-white  gap-10 flex justify-end">
-                    <a>Home</a>
-                    <a>About</a>
-                    <a>Contact</a>
-                    <a>Serives</a>
+
+                <div className=" flex gap-10">
+                    <p> 🖁010-060-0160</p>
+                    <p> ⏱️6:00 AM - 10:00 PM (Mon-Fri)</p>
+                    <p> 📧info@company.com</p>
                 </div>
             </div>
 
