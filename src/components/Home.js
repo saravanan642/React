@@ -1,4 +1,4 @@
-import LOGO from "../assests/7.jpg"
+import slider1 from "../assests/slider1.jpg"
 function Home() {
     return (
         <div>
@@ -34,10 +34,11 @@ function Home() {
                         <div className="bg-green-900 text-white font-semibold w-[200px] h-[50px] flex items-center justify-center rounded-lg cursor-pointer hover:bg-green-800 transition">
                             Make an Appointment
                         </div>
-
                     </button>
                 </div>
-
+            </div>
+            <div>
+                <img src={slider1} alt="slider " className=" w-full h-[90vh]"></img>
             </div>
 
 
