@@ -38,7 +38,16 @@ function Home() {
                 </div>
             </div>
             <div>
+                <div className=" text-center  mb-1">
+                <p>LET'S MAKE YOUR LIFE HAPPIER</p>
+                <h2>Healthy Living</h2>
+                <button>Meet Our Docters</button>
+                </div>
                 <img src={slider1} alt="slider " className=" w-full h-[90vh]"></img>
+            </div>
+
+            <div>
+                
             </div>
 
 
