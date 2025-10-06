@@ -5,7 +5,7 @@ const Home = () => {
   return (
     <div>
 
-      <div className=" text-center  mb-1 relative top-[400px] right-[450px]   font-bold">
+      <div className=" text-center  mb-1  absolute top-[500px] right-[65%]   font-bold">
         <p className='  border border-none p-[3px]'>LET'S MAKE YOUR LIFE HAPPIER</p>
         <h1 className=' border border-none p-[3px] text-5xl '>Healthy Living</h1>
         <button className=' border border-solid m-5 p-4 bg-green-700 rounded-[20px]'>Meet Our Docters</button>
