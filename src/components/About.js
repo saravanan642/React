@@ -6,7 +6,11 @@ const About = () => {
   return (
     <div>
       <div className=" text-center  mb-1  absolute top-[1500px] right-[65%]   font-bold  z-10">
-        <p className='  border border-none p-[3px]'>LET'S MAKE YOUR LIFE HAPPIER</p>
+        <div className='flex  gap-[20px]'>
+        <h2 className='border border-none p-[3px] font-bold text-5xl'>Welcome to Your </h2>
+        <span class="bg-black  border border-none p-[3px] font-bold text-4xl text-white  "  >H</span>
+        </div>
+
         <h1 className=' border border-none p-[3px] text-5xl '>Healthy Living</h1>
         <button className=' border border-solid m-5 p-4 bg-green-700 rounded-[20px]'>Meet Our Docters</button>
       </div>
