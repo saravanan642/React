@@ -1,5 +1,6 @@
 import React from 'react'
 
+
 const Header = () => {
     return (
 
@@ -24,11 +25,11 @@ const Header = () => {
                 </div>
                 <div className=" justify-evenly flex" >
                     <div className="flex gap-10 font-bold py-10">
-                        <a href="#">Home</a>
-                        <a href="#">About Us</a>
-                        <a href="#">Contacts</a>
-                        <a href="#">Docters</a>
-                        <a href="#">News</a>
+                        <a href="/home">Home</a>
+                        <a href="/about">About Us</a>
+                        <a href="/contacts">Contacts</a>
+                        <a href="docters">Docters</a>
+                        <a href="contact">News</a>
                     </div>
 
                     <button class=" text-white font-semibold px-20 py-2 ">
