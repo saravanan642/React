@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import slider1 from '../assests/slider1.jpg'
 import slider2 from "../assests/slider2.jpg"
 import About from './About'
+import Contacts from './Contacts';
 
 
 const Home = () => {
@@ -26,6 +27,7 @@ const Home = () => {
 
 
         <About />
+        <Contacts/>
 
 
 
